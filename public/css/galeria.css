@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(rgb(0, 0, 75), rgb(95, 0, 95))
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: black;
+    width: 100%;
+    z-index: 100;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 18px 85px;
+    font-size: 25px;
+}
+
+header a:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+.logo h1{
+    margin-left: 14px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: white;
+    text-shadow: 8px 5px 10px black;
+}
+section{
+    margin: 30px 13px 223px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img{
+    width: 300px;
+    display: flex;
+}
